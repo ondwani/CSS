@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+body{
+    margin: 0;
+    font-size: 21px;
+    font-family: 'Rubik', sans-serif;
+}
+.header{
+    background:wheat;
+    font-size: 25px;
+    color: #343a40;
+}
+
+/* .logo h4{
+    background-image: url("https://colorlib.com/preview/theme/pillowmart/img/logo.png");
+    font-size: 30px;
+    margin-right: 200px;
+} */
+.header li{
+    margin-left: 20px ;
+    display: inline-flex; 
+}
