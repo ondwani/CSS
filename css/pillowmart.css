@@ -1,22 +1,80 @@
-@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
-
-body{
-    margin: 0;
-    font-size: 21px;
-    font-family: 'Rubik', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.header{
-    background:wheat;
-    font-size: 25px;
-    color: #343a40;
+body {
+  font-family: "Rubik", sans-serif;
 }
-
-/* .logo h4{
-    background-image: url("https://colorlib.com/preview/theme/pillowmart/img/logo.png");
-    font-size: 30px;
-    margin-right: 200px;
+header {
+  width: 90%;
+  margin: 5px auto;
+  height: 10vh;
+  align-items: center;
+  display: inline-flex;
+}
+/* .logo-container,
+.nav-cart {
+  display: inline-flex;
 } */
-.header li{
-    margin-left: 20px ;
-    display: inline-flex; 
+
+.logo-container {
+  flex: 1;
+  margin-left: 100px;
+ 
+}
+.nav-cart {
+  flex: 2;
+}
+.nav-links {
+  
+  display: inline-flex;
+
+  list-style: none;
+}
+.nav-link {
+  text-decoration: none;
+  color: #343a40;
+  font-size: 18px;
+  margin-right: 35px;
+}
+.cart {
+  
+
+  justify-content: flex-end;
+}
+
+.body-container{
+    /* display: flex; */
+    min-height: 100vh;
+    background: lime;
+   
+}
+.pillow-1 h1{
+    color: #4b3049;
+    margin-top: 50px;
+    font-size: 80px;
+    font-weight: 400;
+}
+.pillow-1 h5 {
+    color:#795376;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.pillow-1 img{
+    background: black;
+    height: 80vh;
+    float: right;
+    /* justify-content: flex-end; */
+   
+}
+.btn{
+    padding: 13px 29px;
+    font-size: 15px;
+}
+.btn-1{
+    background: #B08EAD;
+    color: white;
+    border-radius: 4PX;
 }
