@@ -78,98 +78,105 @@ nav {
 }
 
 /* buttons */
-.cta{
-    padding-top: 50px;
-    font-size: 10px;
-    width: 250px ;
-    height: 100px;
-    cursor: pointer;
-   
+/* .cta {
+
+} */
+.cta {
+  padding: 50px 0px 0px 0px;
 }
+.cta button {
+  font-size: 10px;
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
 .cta-select {
-    border: 2px solid #c36cbb;
-    background: transparent;
-    color: #c36cbb;
-    margin-right: 30px;
-   
+  border: 2px solid #c36cbb;
+  background: transparent;
+  color: #c36cbb;
+  margin-right: 30px;
 }
 .cta-add {
-    background:#c36cbb ; 
-    border: none;  
+  background: #c36cbb;
+  border: none;
 }
 
 /* eclipses */
-.big-eclipse{
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    z-index: -1;
-    opacity: 0.5;
-    height: 80%;
+.big-eclipse {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: -1;
+  opacity: 0.5;
+  height: 80%;
 }
-.mid-eclipse{
-    position: absolute;
-    top: 30%;
-    right: 30%;
-    z-index: -1;
-    height: 60vh;
-    opacity: 0.4;
+.mid-eclipse {
+  position: absolute;
+  top: 30%;
+  right: 30%;
+  z-index: -1;
+  height: 60vh;
+  opacity: 0.4;
 }
-.small-eclipse{
-    position: absolute;
-    bottom: 0%;
-    left: 20%;
-    z-index: -1;
-    
+.small-eclipse {
+  position: absolute;
+  bottom: 0%;
+  left: 20%;
+  z-index: -1;
 }
 .laptop-select {
-    width: 15%;
-    display: flex;
-    justify-content: space-around;
-    position: absolute;
-    right: 20%;
+  width: 15%;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  right: 20%;
 }
 
 @keyframes drop {
-    0%{
-        opacity: 0;
-        transform: translate(-80px);
-    }
-    100%{
-        opacity: 1;
-        transform: translate(0px);
-    }
+  0% {
+    opacity: 0;
+    transform: translate(-80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0px);
+    
+  }
 }
 
-@media screen and (max-width:1024px){
-   .presentation{
-       flex-direction: column;
-   }
-   .introduction{
-       margin-top: 5vh;
-       text-align: center;
-   }
-   .intro-text h1 {
-        font-size: 30px;
-   }
-   .intro-text p {
-       font-size: 18px;
-   }
-   .cta {
-       padding-top: 10px ;
-   }
-   .laptop-select {
-       bottom: 5%;
-       width: 50%;
-       right: 50%;
-       transform: translate(50%, 5%);
-   }
-   .cover img{
-       height: 80%;
-   }
-   .small-eclipse,.mid-eclipse,.big-eclipse{
-       opacity: 0.1;
-   }
+@media screen and (max-width: 1024px) {
+  .presentation {
+    flex-direction: column;
+  }
+  .introduction {
+    margin-top: 5vh;
+    text-align: center;
+  }
+  .intro-text h1 {
+    font-size: 30px;
+  }
+  .intro-text p {
+    font-size: 18px;
+  }
+  .cta {
+    padding-top: 10px;
+  }
+  .laptop-select {
+    bottom: 5%;
+    width: 50%;
+    right: 50%;
+    transform: translate(50%, 5%);
+  }
+  .cover img {
+    height: 80%;
+  }
+  .small-eclipse,
+  .mid-eclipse,
+  .big-eclipse {
+    opacity: 0.1;
+  }
 }
 
 /* burger menu */
